@@ -14,14 +14,14 @@ header {
   width: 100%;
 }
 
-#header-img {
+#logo #header-img {
   height: 100%;
   width: 100%;
   margin-top: 0;
   position: relative;
   left: -90px;
   max-width: 300px;
-  float: left;
+  margin: auto;
 }
 
 nav ul {
@@ -31,26 +31,45 @@ nav ul {
   flex-direction: row;
   justify-content: space-around;
 }
-#video{
-  display:block;
+
+#video {
+  display: block;
   margin: 100px auto;
-  padding:30px;
+  padding: 30px;
   text-align: center;
 }
-#form{
+#form {
   display: block;
   margin: auto;
   text-align: center;
 }
-#email{
+#email {
   padding: 5px;
-  width:200px;
+  width: 200px;
 }
-#submit{
+#submit {
   background-color: #f1c40f;
   padding: 5px 15px 5px 15px;
   font-weight: 800;
   border: none;
   border-radius: 1px solid black;
   font-size: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  #header-img {
+    height: 50%;
+    width: 50%;
+    margin-top: 0;
+    position: relative;
+    max-width: 300px;
+  }
+  #header {
+    flex-wrap: wrap;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    width: 55vw;
+  }
 }
