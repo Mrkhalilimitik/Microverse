@@ -8,7 +8,7 @@ header {
   display: flex;
   top: 0;
   min-height: 75px;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -20,7 +20,7 @@ header {
   margin-top: 0;
   position: relative;
   top: 5px;
-  left: -10px;
+  /* left: -10px; */
   max-width: 300px;
   margin: auto;
 }
@@ -82,7 +82,7 @@ h2 {
     max-width: 300px;
   }
   section#hero {
-    left: 30px;
+    /* left: 30px; */
 }
   #header {
     display: flex;
@@ -96,4 +96,34 @@ h2 {
   h2 {
     text-align: center !important;
   }
+  div#navbar ul {
+    display: block !important;
+    margin: auto;
+    text-align: center;
+}
+li{
+  padding:3px;
+}
+div#navbar {
+    display: block !important;
+}
+div#logo {
+    margin: auto;
+    text-align: center;
+    /* left: 30px !important; */
+    padding-bottom: 5px;
+}
+div#logo {
+    display: block !important;
+}
+header#header {
+  display: block;
+}
+div iframe{
+  width:80vw;
+  height:auto;
+}
+ul{
+  padding-left:0;
+}
 }
